@@ -8,7 +8,7 @@ while (true) {
     } else { break; }
     }
     console.log (bandera);
-}
+
 function sumar (anterior, nuevo) {
     return anterior += nuevo;
 }
