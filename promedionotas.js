@@ -42,3 +42,26 @@ function procesarEstudiantes() {
 
         // Calcular promedio
         let promedio = calcularPromedio(notas);
+        // Determinar estado
+        let estado = determinarEstado(promedio);
+        
+        // Mostrar resultados
+        let textoNotas = "";
+        for (let k = 0; k < notas.length; k++) {
+            textoNotas += notas[k];
+            if (k < notas.length - 1) {
+                textoNotas += ", ";
+            }
+        }
+        
+        console.log("Notas: " + textoNotas);
+        console.log("Promedio: " + promedio);
+        console.log("Estado: " + estado);
+        console.log("");
+    }
+    
+    alert("Proceso completado. Revisa la consola para ver los resultados.");
+}
+
+// Ejecutar el programa
+procesarEstudiantes();
