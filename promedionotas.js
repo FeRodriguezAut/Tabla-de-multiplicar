@@ -39,3 +39,6 @@ function procesarEstudiantes() {
             
             notas.push(nota);
         }
+
+        // Calcular promedio
+        let promedio = calcularPromedio(notas);
