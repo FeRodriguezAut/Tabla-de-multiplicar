@@ -15,3 +15,8 @@ function determinarEstado(promedio) {
         return "REPROBADO";
     }
 }
+
+// Función principal
+function procesarEstudiantes() {
+    const numeroEstudiantes = 5;
+    const numeroNotas = 3; // Cantidad de notas por estudiante
