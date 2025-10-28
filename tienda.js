@@ -12,6 +12,7 @@ function iniciarTienda() {
             alert("Precio inválido. Debe ingresar un número mayor a 0");
             precioProducto = parseFloat(prompt("Ingrese el precio del producto:"));
         }
+    }
          let descuento = 0;
     
     if (totalCompra > 100000) {
