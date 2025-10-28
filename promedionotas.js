@@ -7,3 +7,11 @@ function calcularPromedio(notas) {
     return suma / notas.length;
 }
 
+// Función para determinar si aprueba o reprueba
+function determinarEstado(promedio) {
+    if (promedio >= 3.0) {
+        return "APROBADO";
+    } else {
+        return "REPROBADO";
+    }
+}
